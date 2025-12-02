@@ -1,199 +1,174 @@
 [
-    {
-        "category": "SIGNATURE",
-        "items": [
-            {
-                "name": "Peach Coco",
-                "ingredients": [
-                    "vodka",
-                    "peachtree",
-                    "malibu",
-                    "orange juice",
-                    "lemon",
-                    "grenadine"
-                ],
-                "abv": 10,
-                "description": "Our signature tropical delight. A creamy and fruity blend of coconut and peach.",
-                "image": "https://img.insight.co.kr/static/2020/03/18/700/h7k12465wrc8f42v1255.jpg"
-            }
-        ]
-    },
-    {
-        "category": "VODKA BASED",
-        "items": [
-            {
-                "name": "Vodka Tonic",
-                "ingredients": [
-                    "vodka",
-                    "tonic water"
-                ],
-                "abv": 10,
-                "description": "A refreshing and simple cocktail perfect for any occasion. The crisp taste of tonic water complements the smooth vodka.",
-                "image": "https://drinksworld.com/wp-content/uploads/Vodka-Tonic-scaled.jpg"
-            },
-            {
-                "name": "Vodka Sunrise",
-                "ingredients": [
-                    "vodka",
-                    "orange juice",
-                    "grenadine"
-                ],
-                "abv": 12,
-                "description": "A beautiful gradient cocktail resembling a sunrise. Sweet orange juice meets the tartness of grenadine.",
-                "image": "https://images.slurrp.com/prod/recipe_images/mix-that-drink/vodka-sunrise-1615988808_EMII4048XMPTJIOG7AQ6.webp?impolicy=slurrp-20210601&width=1200&height=675"
-            },
-            {
-                "name": "Screwdriver",
-                "ingredients": [
-                    "vodka",
-                    "orange juice",
-                    "lemon"
-                ],
-                "abv": 12,
-                "description": "A classic highball drink. Simple, citrusy, and effective.",
-                "image": "https://www.foodandwine.com/thmb/lZ42xRPXOyNpSV3lwRd3ZbSJBaY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Screwdriver-Cocktail-FT-RECIPE0123-3dfe0abba1f544aeb92cda1a02224af3.jpg"
-            }
-        ]
-    },
-    {
-        "category": "RUM BASED",
-        "items": [
-            {
-                "name": "Cuba Libre",
-                "ingredients": [
-                    "rum",
-                    "coke",
-                    "lime"
-                ],
-                "abv": 10,
-                "description": "More than just rum and coke, the addition of fresh lime juice brings this highball to life.",
-                "image": "https://images.ctfassets.net/qbvb79w96uc8/1KoeOuReizprOqjHX74HRJ/3b6e168ca2c282ab510b18254f331231/bacardi_cuba_libre_recipe_image.jpg"
-            },
-            {
-                "name": "Mai Tai",
-                "ingredients": [
-                    "rum",
-                    "triple sec",
-                    "lime",
-                    "orange",
-                    "pineapple"
-                ],
-                "abv": 20,
-                "description": "The quintessential Tiki cocktail. A complex blend of rum, citrus, and sweeteners.",
-                "image": "https://www.foodandwine.com/thmb/12UDMRbfmdAzBt9XJcCa-R2qqQ4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Mai-Tai-Cocktail-FT-BLOG1122-43e6748207e04826b57b8654cedb6bd8.jpg"
-            },
-            {
-                "name": "Rum Sunrise",
-                "ingredients": [
-                    "rum",
-                    "orange juice",
-                    "grenadine"
-                ],
-                "abv": 12,
-                "description": "A tropical twist on the classic sunrise, swapping vodka for the warmth of rum.",
-                "image": "https://casualmixologist.com/wp-content/uploads/2023/12/Web_CoverPhoto_RummySunrise-1200x640.jpg"
-            }
-        ]
-    },
-    {
-        "category": "LIQUOR BASED",
-        "items": [
-            {
-                "name": "Peach Crush",
-                "ingredients": [
-                    "peachtree",
-                    "orange juice"
-                ],
-                "abv": 5,
-                "description": "Sweet, fruity, and low in alcohol. A perfect drink for those who prefer something lighter.",
-                "image": "https://redhazel.net/wp-content/uploads/2020/10/Red-Hazel-Peach-Crush-1235-1024x834.jpg"
-            },
-            {
-                "name": "Peach Sunrise",
-                "ingredients": [
-                    "peachtree",
-                    "orange juice",
-                    "grenadine"
-                ],
-                "abv": 5,
-                "description": "A peach-flavored variation of the sunrise family. Sweet and visually stunning.",
-                "image": "https://img.insight.co.kr/static/2020/03/18/700/743p4d3108taxgp964sy.jpg"
-            }
-        ]
-    },
-    {
-        "category": "WHISKY BASED",
-        "items": [
-            {
-                "name": "Highball",
-                "ingredients": [
-                    "whisky",
-                    "tonic water"
-                ],
-                "abv": 12,
-                "description": "A classic refreshing whisky drink. Clean and crisp.",
-                "image": "https://media.istockphoto.com/id/621718568/ko/%EC%82%AC%EC%A7%84/%EC%83%9D%EA%B0%95-%EC%97%90%EC%9D%BC-%EC%9C%84%EC%8A%A4%ED%82%A4-%ED%95%98%EC%9D%B4%EB%B3%BC.jpg?s=170667a&w=0&k=20&c=j9Om_MwalAVHyCa36dgF5CslvAwRA-qHWoDaTvHiuW8="
-            },
-            {
-                "name": "Whisky Coke",
-                "ingredients": [
-                    "whisky",
-                    "coke",
-                    "lemon"
-                ],
-                "abv": 10,
-                "description": "A timeless combination. Sweet cola balances the oaky whisky.",
-                "image": "https://media.istockphoto.com/id/471841700/photo/cocktails.jpg?s=612x612&w=0&k=20&c=4-7ctrFn4nr_thAkQKTZFpK7ld4a1wTfwFUa1baIl1Q="
-            },
-            {
-                "name": "New York",
-                "ingredients": [
-                    "bourbon",
-                    "lemon",
-                    "grenadine"
-                ],
-                "abv": 20,
-                "description": "A sophisticated sour cocktail with a beautiful color and depth.",
-                "image": "https://images.getrecipekit.com/20220823010648-new-york-sour-cocktail.png?aspect_ratio=4:3&quality=90&"
-            }
-        ]
-    },
-    {
-        "category": "GIN BASED",
-        "items": [
-            {
-                "name": "Gin Tonic",
-                "ingredients": [
-                    "gin",
-                    "tonic water",
-                    "lemon"
-                ],
-                "abv": 12,
-                "description": "The quintessential gin drink. Botanicals meet bitter tonic.",
-                "image": "https://www.thespruceeats.com/thmb/0noKFvArOC2N2Eg4pA7uwc0bC30=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gin-and-tonic-recipe-759300-hero-01-aa12e6504f944c54b8b9c589cc1d0ac6.jpg"
-            },
-            {
-                "name": "Gin Fizz",
-                "ingredients": [
-                    "gin",
-                    "sparkling water",
-                    "lemon"
-                ],
-                "abv": 10,
-                "description": "Light, citrusy, and bubbly. A perfect afternoon refresher.",
-                "image": "https://www.thespruceeats.com/thmb/upWyM_vQBImTo3tBDaAhalkxYtc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-gin-fizz-recipe-759670-hero-images-3-557ae281ea0f42efb959e5a8458dfa85.jpg"
-            },
-            {
-                "name": "White Lady",
-                "ingredients": [
-                    "gin",
-                    "triple sec",
-                    "lemon"
-                ],
-                "abv": 20,
-                "description": "A classic sour. Elegant, tart, and smooth.",
-                "image": "https://www.hellosiegfried.com/wp-content/uploads/2020/08/whitelady.jpg"
-            }
-        ]
-    }
+  {
+    "category": "SIGNATURE",
+    "items": [
+      {
+        "name": "Peach Coco",
+        "ingredients": [
+          "vodka",
+          "peachtree",
+          "malibu",
+          "orange juice",
+          "lemon",
+          "grenadine"
+        ],
+        "abv": 10,
+        "description": "Our signature tropical delight. A creamy and fruity blend of coconut and peach.",
+        "image": "https://img.insight.co.kr/static/2020/03/18/700/h7k12465wrc8f42v1255.jpg",
+        "sweet": 4,
+        "sour": 1
+      }
+    ]
+  },
+  {
+    "category": "VODKA BASED",
+    "items": [
+      {
+        "name": "Vodka Tonic",
+        "ingredients": ["vodka", "tonic water"],
+        "abv": 10,
+        "description": "A refreshing and simple cocktail perfect for any occasion. The crisp taste of tonic water complements the smooth vodka.",
+        "image": "https://drinksworld.com/wp-content/uploads/Vodka-Tonic-scaled.jpg",
+        "sweet": 1,
+        "sour": 1
+      },
+      {
+        "name": "Vodka Sunrise",
+        "ingredients": ["vodka", "orange juice", "grenadine"],
+        "abv": 12,
+        "description": "A beautiful gradient cocktail resembling a sunrise. Sweet orange juice meets the tartness of grenadine.",
+        "image": "https://images.slurrp.com/prod/recipe_images/mix-that-drink/vodka-sunrise-1615988808_EMII4048XMPTJIOG7AQ6.webp?impolicy=slurrp-20210601&width=1200&height=675",
+        "sweet": 3,
+        "sour": 1
+      },
+      {
+        "name": "Screwdriver",
+        "ingredients": ["vodka", "orange juice", "lemon"],
+        "abv": 12,
+        "description": "A classic highball drink. Simple, citrusy, and effective.",
+        "image": "https://www.foodandwine.com/thmb/lZ42xRPXOyNpSV3lwRd3ZbSJBaY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Screwdriver-Cocktail-FT-RECIPE0123-3dfe0abba1f544aeb92cda1a02224af3.jpg",
+        "sweet": 2,
+        "sour": 1
+      }
+    ]
+  },
+  {
+    "category": "RUM BASED",
+    "items": [
+      {
+        "name": "Cuba Libre",
+        "ingredients": ["rum", "coke", "lime"],
+        "abv": 10,
+        "description": "More than just rum and coke, the addition of fresh lime juice brings this highball to life.",
+        "image": "https://images.ctfassets.net/qbvb79w96uc8/1KoeOuReizprOqjHX74HRJ/3b6e168ca2c282ab510b18254f331231/bacardi_cuba_libre_recipe_image.jpg",
+        "sweet": 2,
+        "sour": 1
+      },
+      {
+        "name": "Mai Tai",
+        "ingredients": ["rum", "triple sec", "lime", "orange", "pineapple"],
+        "abv": 20,
+        "description": "The quintessential Tiki cocktail. A complex blend of rum, citrus, and sweeteners.",
+        "image": "https://www.foodandwine.com/thmb/12UDMRbfmdAzBt9XJcCa-R2qqQ4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Mai-Tai-Cocktail-FT-BLOG1122-43e6748207e04826b57b8654cedb6bd8.jpg",
+        "sweet": 4,
+        "sour": 2
+      },
+      {
+        "name": "Rum Sunrise",
+        "ingredients": ["rum", "orange juice", "grenadine"],
+        "abv": 12,
+        "description": "A tropical twist on the classic sunrise, swapping vodka for the warmth of rum.",
+        "image": "https://casualmixologist.com/wp-content/uploads/2023/12/Web_CoverPhoto_RummySunrise-1200x640.jpg",
+        "sweet": 3,
+        "sour": 2
+      }
+    ]
+  },
+  {
+    "category": "LIQUOR BASED",
+    "items": [
+      {
+        "name": "Peach Crush",
+        "ingredients": ["peachtree", "orange juice"],
+        "abv": 5,
+        "description": "Sweet, fruity, and low in alcohol. A perfect drink for those who prefer something lighter.",
+        "image": "https://redhazel.net/wp-content/uploads/2020/10/Red-Hazel-Peach-Crush-1235-1024x834.jpg",
+        "sweet": 5,
+        "sour": 1
+      },
+      {
+        "name": "Peach Sunrise",
+        "ingredients": ["peachtree", "orange juice", "grenadine"],
+        "abv": 5,
+        "description": "A peach-flavored variation of the sunrise family. Sweet and visually stunning.",
+        "image": "https://img.insight.co.kr/static/2020/03/18/700/743p4d3108taxgp964sy.jpg",
+        "sweet": 4,
+        "sour": 1
+      }
+    ]
+  },
+  {
+    "category": "WHISKY BASED",
+    "items": [
+      {
+        "name": "Highball",
+        "ingredients": ["whisky", "tonic water"],
+        "abv": 12,
+        "description": "A classic refreshing whisky drink. Clean and crisp.",
+        "image": "https://media.istockphoto.com/id/621718568/ko/%EC%82%AC%EC%A7%84/%EC%83%9D%EA%B0%95-%EC%97%90%EC%9D%BC-%EC%9C%84%EC%8A%A4%ED%82%A4-%ED%95%98%EC%9D%B4%EB%B3%BC.jpg?s=170667a&w=0&k=20&c=j9Om_MwalAVHyCa36dgF5CslvAwRA-qHWoDaTvHiuW8=",
+        "sweet": 1,
+        "sour": 1
+      },
+      {
+        "name": "Whisky Coke",
+        "ingredients": ["whisky", "coke", "lemon"],
+        "abv": 10,
+        "description": "A timeless combination. Sweet cola balances the oaky whisky.",
+        "image": "https://media.istockphoto.com/id/471841700/photo/cocktails.jpg?s=612x612&w=0&k=20&c=4-7ctrFn4nr_thAkQKTZFpK7ld4a1wTfwFUa1baIl1Q=",
+        "sweet": 3,
+        "sour": 1
+      },
+      {
+        "name": "New York",
+        "ingredients": ["bourbon", "lemon", "grenadine"],
+        "abv": 20,
+        "description": "A sophisticated sour cocktail with a beautiful color and depth.",
+        "image": "https://images.getrecipekit.com/20220823010648-new-york-sour-cocktail.png?aspect_ratio=4:3&quality=90&",
+        "sweet": 1,
+        "sour": 4
+      }
+    ]
+  },
+  {
+    "category": "GIN BASED",
+    "items": [
+      {
+        "name": "Gin Tonic",
+        "ingredients": ["gin", "tonic water", "lemon"],
+        "abv": 12,
+        "description": "The quintessential gin drink. Botanicals meet bitter tonic.",
+        "image": "https://www.thespruceeats.com/thmb/0noKFvArOC2N2Eg4pA7uwc0bC30=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gin-and-tonic-recipe-759300-hero-01-aa12e6504f944c54b8b9c589cc1d0ac6.jpg",
+        "sweet": 1,
+        "sour": 1
+      },
+      {
+        "name": "Gin Fizz",
+        "ingredients": ["gin", "sparkling water", "lemon"],
+        "abv": 10,
+        "description": "Light, citrusy, and bubbly. A perfect afternoon refresher.",
+        "image": "https://www.thespruceeats.com/thmb/upWyM_vQBImTo3tBDaAhalkxYtc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-gin-fizz-recipe-759670-hero-images-3-557ae281ea0f42efb959e5a8458dfa85.jpg",
+        "sweet": 2,
+        "sour": 2
+      },
+      {
+        "name": "White Lady",
+        "ingredients": ["gin", "triple sec", "lemon"],
+        "abv": 20,
+        "description": "A classic sour. Elegant, tart, and smooth.",
+        "image": "https://www.hellosiegfried.com/wp-content/uploads/2020/08/whitelady.jpg",
+        "sweet": 1,
+        "sour": 4
+      }
+    ]
+  }
 ]
