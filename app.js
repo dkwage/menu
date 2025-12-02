@@ -13,11 +13,24 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       renderMenu(data);
-    })
-    .catch((error) => {
-      console.error('Error loading menu data:', error);
-      menuContainer.innerHTML =
-        '<p class="error">Failed to load menu data.</p>';
+
+      // --- 추가: 이미지 URL 수집 후 백그라운드 프리로드 ---
+      const imageUrls = [];
+      data.forEach((cat) => {
+        (cat.items || []).forEach((it) => {
+          if (it && typeof it.image === 'string' && it.image.trim())
+            imageUrls.push(it.image.trim());
+        });
+      });
+
+      // 중복 제거
+      const uniqueUrls = Array.from(new Set(imageUrls));
+
+      // 비동기 프리로드(실패해도 무시)
+      preloadImages(uniqueUrls).then((results) => {
+        console.log('preloadImages finished:', results.length);
+      });
+      // ---------------------------------------------------
     });
 
   function renderMenu(categories) {
@@ -90,6 +103,21 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(dot);
     }
     return container;
+  }
+
+  // --- 추가: 이미지 프리로드 유틸 ---
+  function preloadImages(urls = []) {
+    const jobs = urls.map((url) => {
+      return new Promise((resolve) => {
+        if (!url) return resolve({ url, status: 'empty' });
+        const img = new Image();
+        img.onload = () => resolve({ url, status: 'ok' });
+        img.onerror = () => resolve({ url, status: 'error' });
+        img.src = url;
+        // 참고: 캐시된 이미지의 경우 onload가 바로 호출됩니다.
+      });
+    });
+    return Promise.all(jobs);
   }
 
   // Modal Logic
